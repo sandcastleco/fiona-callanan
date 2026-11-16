@@ -17,7 +17,7 @@
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="preload" as="image" href="images/fiona-callanan-handstand-1600.jpg" imagesrcset="images/fiona-callanan-handstand-1000.jpg 1000w, images/fiona-callanan-handstand-1600.jpg 1600w, images/fiona-callanan-handstand-2400.jpg 2400w" imagesizes="(min-aspect-ratio: 1/1) 100vh, 150vw">
+  <link rel="preload" as="image" href="images/fiona-callanan-handstand-1600.jpg" imagesrcset="images/fiona-callanan-handstand-1000.jpg 1000w, images/fiona-callanan-handstand-1600.jpg 1600w, images/fiona-callanan-handstand-2400.jpg 2400w" imagesizes="(min-aspect-ratio: 4/5) 100vh, 150vw">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Inter:wght@500;600&display=swap" rel="stylesheet">
@@ -118,9 +118,9 @@
     .ig:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
     .ig svg { width: 1.2em; height: 1.2em; }
 
-    /* Landscape: her hands and face sit near the bottom of the crop, so move the
+    /* Landscape and near-square: her hands and face sit near the bottom of the crop, so move the
        call to action out of the photo into a white strip beneath it. */
-    @media (min-aspect-ratio: 1/1) {
+    @media (min-aspect-ratio: 4/5) {
       .footer {
         position: static;
         flex-direction: row;
@@ -146,7 +146,7 @@
     <div class="stage">
     <img src="images/fiona-callanan-handstand-1600.jpg" width="1600" height="2400"
          srcset="images/fiona-callanan-handstand-1000.jpg 1000w, images/fiona-callanan-handstand-1600.jpg 1600w, images/fiona-callanan-handstand-2400.jpg 2400w"
-         sizes="(min-aspect-ratio: 1/1) 100vh, 150vw"
+         sizes="(min-aspect-ratio: 4/5) 100vh, 150vw"
          alt="Fiona Callanan in a forearm headstand on a yoga mat, legs folded and prosthetic leg raised, in front of a colourful mural"
          fetchpriority="high">
     </div>
